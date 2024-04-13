@@ -1,12 +1,11 @@
 import axios from "axios";
 import { useEffect, useState } from "react";
-import { Link } from "react-router-dom";
 
 import { CardHeader, CardContent, Card, Grid, GridColumn } from "semantic-ui-react";
 import Loading from "../Loading/Loading";
 
 interface IAuthor {
-  id: string;
+  _id: string;
   name: string;
 }
 

@@ -6,7 +6,7 @@ import { CardHeader, CardContent, Card, Grid, GridColumn } from "semantic-ui-rea
 import Loading from "../Loading/Loading";
 
 interface ITag {
-  id: string;
+  _id: string;
   name: string;
   slug: string;
 }
