@@ -1,0 +1,18 @@
+@use "../../styles/variables.scss" as v;
+
+.App {
+  text-align: center;
+  background-color: white;
+  width: 90%;
+  margin-inline: auto;
+
+  &-logo {
+    height: 25vmin;
+    pointer-events: none;
+    margin-inline: auto;
+  }
+
+  &-link {
+    color: v.$color-primary;
+  }
+}

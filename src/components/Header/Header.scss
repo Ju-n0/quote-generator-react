@@ -1,0 +1,15 @@
+@use "../../styles/variables.scss" as v;
+
+.header-firstpart {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+
+  &-title {
+    color: v.$color-primary;
+    font-size: 5rem;
+    font-weight: 600;
+    font-family: Lato, "Helvetica Neue", Arial, Helvetica, sans-serif;
+    margin: auto;
+  }
+}
