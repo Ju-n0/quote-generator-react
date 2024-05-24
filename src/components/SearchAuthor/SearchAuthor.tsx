@@ -4,6 +4,8 @@ import axios from "axios";
 import Loading from "../Loading/Loading";
 import AllAuthors from "../AllAuthors/AllAuthors";
 
+import "./searchAuthor.scss";
+
 interface IResult {
   _id: string;
   name: string;

@@ -2,14 +2,14 @@
 
 .header-firstpart {
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
   justify-content: space-around;
 
   &-title {
-    color: v.$color-primary;
+    font-family: "Dekko", cursive;
+    color: black;
     font-size: 5rem;
-    font-weight: 600;
-    font-family: Lato, "Helvetica Neue", Arial, Helvetica, sans-serif;
+    font-weight: 500;
     margin: auto;
   }
 }
